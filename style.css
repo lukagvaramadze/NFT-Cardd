@@ -1,0 +1,161 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D192C;
+    margin: 0;
+}
+
+
+#main{
+    height: 596px;
+    width: 350px;
+    background-color: #15263F;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#main-img{
+    width: 100%;
+    height: 100%;
+  
+}
+
+#img{
+    height: 302px;
+    max-width: 302px;
+    width: 350px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#view-icon{
+position: absolute;
+display: none;
+width: 300px;
+height:300px;
+background-color: #00fff791;
+
+}
+
+#img:hover #view-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#img:hover{
+    opacity: 1;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+#nft-header{
+    color: white;
+    width: 302px;
+    font-size: 22px;
+}
+#nft-header:hover{
+    color: #00FFF8;
+}
+
+#nft-paragraph{
+    font-size: 18px;
+    width: 302px;
+    color: #8BACD9;
+    margin: 0;
+}
+
+#valute{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+}
+
+#valute-header{
+    color: #00FFF8;
+    font-size: 16px;
+}
+
+#valute-image{
+    width: 11px;
+    height: 20px;
+    
+}
+
+#time{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#time-header{
+    font-size: 16px;
+    color: #8BACD9;
+}
+
+#time-img{
+    width:13.33px;
+height: 13.33px;
+
+}
+
+#paragraph{
+    display: flex;
+    justify-content: space-between;
+    width: 302px;
+    margin: 0;
+    padding: 0;
+}
+
+#line{
+    background-color: #2E405A;
+    height: 1px;
+    width: 302px;
+}
+
+#avatar-image{
+    width: 33px;
+    height: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+#avatar-text{
+    font-size: 16px;
+    color: #8BACD9;
+}
+#avatar-text2{
+    font-size: 16px;
+    color: white;
+}
+#avatar-text2:hover{
+    color: #00FFF8;
+}
+#end{
+    display: flex;
+    
+    width: 302px;
+   
+}
+
+.oneline-text{
+    display: flex;
+    width: 175px;
+    justify-content: space-between;
+}
+.pad{
+    width: 10px;
+}
